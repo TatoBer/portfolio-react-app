@@ -12,6 +12,7 @@
     font-variation-settings: "wght" 900, "ital" 1;
     font-size: 30vh;
     text-align: center;
+    line-height: 30vh;
     color: transparent;
     font-family: "Meta", sans-serif;
     text-shadow: 1vh 1vh 0px #c41558,
@@ -20,12 +21,35 @@
       2vh 2vh 0px #818181,
       2.5vh 2.5vh 0px #636363,
       4.5vh 4.5vh 1vh #0000005b;
-    margin: 12vh 0;
-    margin-top: 7.5vh;
     user-select: none;
   }
   
-  .main-name:hover {
+  .main-name-container {
+    width: 80vh;
+    margin: 12vh 0;
+    margin-top: 7.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .main-name-container h3 {
+    font-variation-settings: "wght" 200, "ital" 1;
+    font-family: "Meta", sans-serif;
+    text-shadow: 2px 2px 0px #000000;
+    position: absolute;
+    font-size: 55px;
+    color: WHITE;
+  }
+
+  .main-name-container:hover .main-name{
     font-variation-settings: "wght" 100, "ital" 1;
     text-shadow: none;
+  }
+
+  @media (max-width: 70vh) {
+    .main-name {
+      transform: scale(.6) translate(-20px, 0);
+    }
   }

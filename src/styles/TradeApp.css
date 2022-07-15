@@ -75,3 +75,24 @@
 .resultados-flex > span.kakChild {
     margin-right: 25px;
 }
+
+.trade-flex-container {
+    margin: 0;
+    display: flex;
+}
+
+
+@media (max-width: 70vh) {
+    .trade-flex-container {
+      flex-direction: column;
+    }
+    .trade-app {
+        height: 1183px;
+    }
+    .trade-container {
+        transform: scale(.9);
+    }
+    .result-container {
+        transform: scale(.9);  
+    }
+  }

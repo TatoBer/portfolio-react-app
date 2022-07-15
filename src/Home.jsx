@@ -21,17 +21,21 @@ export default function Home() {
     
 
     function toggleTrade() {
+        const ventanaCalc = document.querySelector(".calculadora")
+        const ventanaTrade = document.querySelector(".trade-app")
         setTimeout(() => {
-        const ventana = document.querySelector(".trade-app")
-        ventana.classList.toggle("closed")
+        ventanaTrade.classList.toggle("closed")
+        ventanaCalc.classList.add("closed")
         }, 5);
         
     };
 
     function toggleCalc() {
+        const ventanaCalc = document.querySelector(".calculadora")
+        const ventanaTrade = document.querySelector(".trade-app")
         setTimeout(() => {
-        const ventana = document.querySelector(".calculadora")
-        ventana.classList.toggle("closed")
+        ventanaCalc.classList.toggle("closed")
+        ventanaTrade.classList.add("closed")
         }, 5);
         
     };
@@ -51,32 +55,6 @@ export default function Home() {
         
         <MainName>TATO</MainName>
         <div className='direct-access'>
-            <h1>DIRECT ACCESS</h1>
-            <div className='access-container'>
-                <Boton2 target="_blank" href="https://mail.google.com/mail/?tab=rm&authuser=0&ogbl" img={gmailImg} text="Gmail"/>
-                <Boton2 target="_blank" href="https://www.youtube.com/" img={youtubeImg} text="YouTube" />
-                <Boton2 target="_blank" href="https://top.gg/bot/432610292342587392/vote" img={topggImg} text="TopGG" />
-                <Boton2 target="_blank" href="https://www.twitch.tv/" img={twitchImg} text="Twitch" />
-            </div>
-        </div>
-        <hr />
-        <div className='direct-access mudae'>
-            <h1>MUDAE TOOLS</h1>
-            <div className='access-container mudae-container'>
-                <Boton2 func={toggleTrade} img={kakImg} text="Trade calc."/>
-            </div>
-            <TradeApp/>
-        </div>
-        <hr />
-        <div className='direct-access'>
-            <h1>EXTRAS</h1>
-            <div className='access-container'>
-                <Boton2 func={toggleCalc} img={calcImg} text="Calculator"/>
-            </div>
-            <Calculadora />
-        </div>
-        <hr />
-        <div className='direct-access'>
             <h1>ABOUT ME</h1>
             <div className='access-container'>
                 <Boton2 func={toggleTools} img={toolsImg} text="Technologies"/>
@@ -86,8 +64,19 @@ export default function Home() {
             <Technologies />
         </div>
         <hr />
+        <div className='direct-access mudae'>
+            <h1>TOOLS</h1>
+            <div className='access-container mudae-container'>
+                <Boton2 func={toggleTrade} img={kakImg} text="Mudae calc."/>
+                <Boton2 func={toggleCalc} img={calcImg} text="Calculator"/>
+            </div>
+            <TradeApp/>
+            <Calculadora />
+        </div>
+        <hr />
     </main>
     </>
     
   )
+  
 }

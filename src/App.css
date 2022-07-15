@@ -42,9 +42,9 @@ main {
   outline: none;
   border: none;
   height: 2px;
-  width: 80%;
+  width: 80vw;
   margin: 3vh auto;
-  background-image: linear-gradient(to right, transparent , rgba(129, 129, 129, 0.521), transparent);
+  background-image: linear-gradient(to right, transparent , rgba(255, 255, 255, 0.048), transparent);
 }
 
 *::-webkit-scrollbar {

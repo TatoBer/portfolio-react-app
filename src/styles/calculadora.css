@@ -38,3 +38,9 @@
     font-size: 42px;
     color: rgba(255, 255, 255, 0.699);
 }
+
+@media (max-width: 70vh) {
+    .calculadora {
+      transform: scale(.87);
+    }
+  }
