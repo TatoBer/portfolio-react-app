@@ -1,0 +1,39 @@
+.tech-container {
+    margin-top: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 244px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: width .3s ease, height .3s ease, margin .3s ease;
+}
+
+.tech img {
+    width: 60px;
+    transition: transform .3s ease;
+}
+
+.tech {
+    background-color: rgba(0, 0, 0, 0.158);
+    width: 100px;
+    height: 100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    margin: 0px 10px 20px 10px;
+}
+
+.tech:hover img {
+    transform: scale(1.2);
+}
+
+.tech h4 {
+    position: absolute;
+    top: 4px;
+    opacity: .3;
+    font-size: 14px;
+}

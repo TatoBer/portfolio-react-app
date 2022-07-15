@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@200&family=Poppins:ital,wght@1,300&display=swap');
+
+.trade-app {
+    transition: height .3s ease, width .3s ease;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    height: 682px;
+    width: 868px;
+}
+
+.result-container > h3 {
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+    font-weight: 100;
+    user-select: none;
+    font-family: 'Poppins', sans-serif;
+}
+  
+
+
+.result-container {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.13);
+    padding: 20px;
+    margin: 20px 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    cursor: pointer;
+    border-bottom: 5px solid #fb217428;
+    transition: box-shadow .3s ease, border .3s ease, transform .3s ease;
+}
+
+.result-container:hover {
+    border-bottom: 5px solid #fb217479;
+    box-shadow: 0 12px 11px -10px #fb217479;
+    transform: scale(1.1);
+}
+
+.resultados-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resultados-flex > span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resultados-flex span img {
+    height: 35px;
+    margin-right: 7px;
+}
+
+.resultados-flex > span > div {
+    font-size: 37px;
+    text-align: center;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 700;
+    user-select: none;
+
+}
+
+.resultados-flex > span.kakChild {
+    margin-right: 25px;
+}
