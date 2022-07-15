@@ -8,26 +8,26 @@
   
   .main-name {
     transition: all 0.3s ease;
-    -webkit-text-stroke: .4vh #d6f4f4;
+    -webkit-text-stroke: 4px #d6f4f4;
     font-variation-settings: "wght" 900, "ital" 1;
-    font-size: 30vh;
+    font-size: 300px;
     text-align: center;
-    line-height: 30vh;
+    line-height: 300px;
     color: transparent;
     font-family: "Meta", sans-serif;
-    text-shadow: 1vh 1vh 0px #c41558,
-      1vh 1vh 30px #c41558,
-      1.5vh 1.5vh 0px #8b566a,
-      2vh 2vh 0px #818181,
-      2.5vh 2.5vh 0px #636363,
-      4.5vh 4.5vh 1vh #0000005b;
+    text-shadow: 10px 10px 0px #c41558,
+      10px 10px 30px #c41558,
+      15px 15px 0px #8b566a,
+      20px 20px 0px #818181,
+      25px 25px 0px #636363,
+      45px 45px 10px #0000005b;
     user-select: none;
   }
   
   .main-name-container {
-    width: 80vh;
-    margin: 12vh 0;
-    margin-top: 7.5vh;
+    width: 800px;
+    margin: 120px 0;
+    margin-top: 75px;
     display: flex;
     justify-content: center;
     align-items: center;
