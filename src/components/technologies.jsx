@@ -11,14 +11,20 @@ import nodeImg from '../images/NodeJS.png'
 
 export default function Technologies() {
   return (
-    <div className='tech-container closed'>
+    <div className='tech-container'>
+      <div className='topath' id='skillset'></div>
+      <h2 className='abm-h2'>SKILLSET</h2>
+      <div className='div-skillset'>
         <Techn img={npmImg} text="npm" color="#cb3837cc"/>
         <Techn img={reactImg} text="React" color="#00d8ffb8"/>
         <Techn img={jsImg} text="JavaScript" color="#f7df1ead"/>
         <Techn img={gitImg} text="git" color="#f05133b8"/>
+      </div>
+      <div className='div-skillset'>
         <Techn img={cssImg} text="CSS" color="#0c73b8b8"/>
         <Techn img={htmlImg} text="HTML" color="#f05133b8"/>
         <Techn img={nodeImg} text="NodeJS" color="#3e863dcf"/>
+      </div>
     </div>
   )
 }

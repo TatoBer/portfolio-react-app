@@ -15,6 +15,8 @@ import carpetaImg from './images/carpeta.png'
 import TradeApp from './TradeApp'
 import Calculadora from './components/calculadora'
 import Technologies from './components/technologies'
+import Contact from './components/contact'
+import Footer from './components/footer'
 
 export default function Home() {
 
@@ -40,13 +42,6 @@ export default function Home() {
         
     };
 
-    function toggleTools() {
-        setTimeout(() => {
-        const ventana = document.querySelector(".tech-container")
-        ventana.classList.toggle("closed")
-        }, 5);
-        
-    };
 
   return (
     <>
@@ -57,11 +52,12 @@ export default function Home() {
         <div className='direct-access'>
             <h1>ABOUT ME</h1>
             <div className='access-container'>
-                <Boton2 func={toggleTools} img={toolsImg} text="Technologies"/>
+                <Boton2 href="#skillset" func={null} img={toolsImg} text="Skillset"/>
                 <Boton2 func={null} img={carpetaImg} text="Portfolio"/>
-                <Boton2 func={null} img={celImg} text="Contact"/>
+                <Boton2 href="#contact" func={null} img={celImg} text="Contact"/>
             </div>
             <Technologies />
+            <Contact />
         </div>
         <hr />
         <div className='direct-access mudae'>
@@ -73,7 +69,7 @@ export default function Home() {
             <TradeApp/>
             <Calculadora />
         </div>
-        <hr />
+        <Footer />
     </main>
     </>
     

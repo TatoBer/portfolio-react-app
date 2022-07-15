@@ -64,3 +64,22 @@ main {
 *::-webkit-scrollbar-track {
   background-color: #0d0c11;
 }
+
+.topath {
+  position: absolute;
+  top: -70px;
+  pointer-events: none;
+  opacity: 0;
+  z-index: -1000;
+}
+
+.abm-h2 {
+  opacity: .5;
+  margin: 40px 0 ;
+    font-family: "Raleway", sans-serif;
+    font-size: 33px;
+    font-weight: 500;
+    font-style: italic;
+    letter-spacing: 5px;
+    position: relative;
+}

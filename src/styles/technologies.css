@@ -1,13 +1,18 @@
 .tech-container {
     margin-top: 45px;
     display: flex;
-    flex-wrap: wrap;
     width: 600px;
-    height: 244px;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     overflow: hidden;
     transition: width .3s ease, height .3s ease, margin .3s ease;
+    position: relative;
+}
+
+.div-skillset {
+    display: flex;
+    flex-direction: row;
 }
 
 .tech img {
@@ -25,6 +30,7 @@
     align-items: center;
     border-radius: 30px;
     margin: 0px 10px 20px 10px;
+    cursor: pointer;
 }
 
 .tech:hover img {
