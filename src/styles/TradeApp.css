@@ -82,7 +82,7 @@
 }
 
 
-@media (max-width: 70vh) {
+@media (max-width: 100vh) {
     .trade-flex-container {
       flex-direction: column;
     }

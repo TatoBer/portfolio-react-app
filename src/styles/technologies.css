@@ -43,3 +43,19 @@
     opacity: .3;
     font-size: 14px;
 }
+
+.columns-skillset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media (max-width: 70vh) {
+    .columns-skillset {
+        flex-direction: row;
+    }
+    .div-skillset {
+        flex-direction: column;
+    }
+  }

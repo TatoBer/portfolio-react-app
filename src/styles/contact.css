@@ -59,3 +59,9 @@
     transition: opacity .3s ease;
     transform: translate(0, 5px);
 }
+
+@media (max-width: 70vh) {
+    .cont-a-div {
+      transform: scale(.8);
+    }
+  }

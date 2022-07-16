@@ -14,6 +14,7 @@ export default function Technologies() {
     <div className='tech-container'>
       <div className='topath' id='skillset'></div>
       <h2 className='abm-h2'>SKILLSET</h2>
+    <div className='columns-skillset'>
       <div className='div-skillset'>
         <Techn img={npmImg} text="npm" color="#cb3837cc"/>
         <Techn img={reactImg} text="React" color="#00d8ffb8"/>
@@ -24,7 +25,9 @@ export default function Technologies() {
         <Techn img={cssImg} text="CSS" color="#0c73b8b8"/>
         <Techn img={htmlImg} text="HTML" color="#f05133b8"/>
         <Techn img={nodeImg} text="NodeJS" color="#3e863dcf"/>
+    </div>
       </div>
+      
     </div>
   )
 }
