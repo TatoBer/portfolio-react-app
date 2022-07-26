@@ -1,67 +1,66 @@
 .contact-container {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .cont-a-div {
-    display: flex;
+  display: flex;
 }
 
 .contact-div {
-    background-color: #00000048;
-    border: none;
-    outline: none;
-    width: 233px;
-    height: 233px;
-    border-radius: 45px;
-    margin: 0 12px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    border-bottom: 4px solid #fb217428;
-    cursor: pointer;
-    transition: transform .3s ease, border .3s ease, box-shadow .3s ease;
-    position: relative;
+  background-color: #00000033;
+  border: none;
+  outline: none;
+  width: 150px;
+  height: 150px;
+  border-radius: 30px;
+  margin: 0 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border-bottom: 4px solid #fb217428;
+  cursor: pointer;
+  transition: transform 0.3s ease, border 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
 }
 
 .contact-div img {
-    width: 150px;
-    height: 150px;
-    opacity: .5;
-    transform: scale(.85);
-    transition: transform .3s ease, opacity .3s ease;
-
+  width: 100px;
+  height: 100px;
+  opacity: 0.5;
+  transform: scale(0.85);
+  transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
 .contact-div:hover {
-    transform: scale(1.05);
-    border-bottom: 4px solid #fb217479;
-    box-shadow: 0 12px 11px -10px #fb217479;
+  transform: scale(1.05);
+  border-bottom: 4px solid #fb217479;
+  box-shadow: 0 12px 11px -10px #fb217479;
 }
 
 .contact-div:hover img {
-    opacity: .9;
-    transform: scale(1);
+  opacity: 0.9;
+  transform: scale(1);
 }
 
 .contact-div:hover p {
-    opacity: .9;
+  opacity: 0.9;
 }
 
 .contact-div p {
-    font-size: 20px;
-    opacity: .5;
-    transition: opacity .3s ease;
-    transform: translate(0, 5px);
+  font-size: 17px;
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+  transform: translate(0, 5px);
 }
 
 @media (max-width: 70vh) {
-    .cont-a-div {
-      transform: scale(.8);
-    }
+  .cont-a-div {
+    transform: scale(0.8);
   }
+}

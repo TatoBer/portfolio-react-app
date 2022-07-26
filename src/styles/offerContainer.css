@@ -1,108 +1,106 @@
-
 .trade-container {
-    margin: 0 17px;
-    width: 400px;
-    height: 500px;
-    background-color: rgba(129, 129, 129, 0.048);
-    border-radius: 15px;
-    display: flex;
-    flex-wrap: wrap;
-    overflow: hidden;
+  margin: 0 17px;
+  width: 400px;
+  height: 500px;
+  background-color: rgba(129, 129, 129, 0.048);
+  border-radius: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
 }
 
- /* FORM */
+/* FORM */
 
 .trade-container form {
-    flex-grow: 1;
-    min-width: 80%;
-    margin: 7px;
-    background-color: rgba(0, 0, 0, 0.438);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    border-radius: 10px;
+  flex-grow: 1;
+  min-width: 80%;
+  margin: 7px;
+  background-color: rgba(0, 0, 0, 0.438);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
 }
 
 .trade-container form span {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .trade-container form span img {
-    height: 30px;
-    margin-right: 5px;
+  height: 30px;
+  margin-right: 5px;
 }
 
 .trade-container form span input {
-    padding: 5px;
-    background-color: transparent;
-    border: none;
-    width: 60px;
-    text-align: center;
-    border-radius: 8px;
-    font-weight: 600;
+  padding: 5px;
+  background-color: transparent;
+  border: none;
+  width: 60px;
+  text-align: center;
+  border-radius: 8px;
+  font-weight: 600;
 }
 
 .trade-container form span input:focus {
-    outline: 1px solid rgba(251, 33, 116, 0.589);
+  outline: 1px solid rgba(251, 33, 116, 0.589);
 }
 
- /* LI TRADES */
+/* LI TRADES */
 
 .trade-li-container {
-    flex-grow: 1;
-    margin: 0 5px;
-    width: 80%;
-    min-height: 450px;
-    background-color: transparent;
-    display: flex;
-    flex-direction: column;
+  flex-grow: 1;
+  margin: 0 5px;
+  width: 80%;
+  min-height: 450px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
 }
 
 .trade-li-container > div {
-    outline: 2px dashed rgba(255, 255, 255, 0.116);
-    display: flex;
-    background-color: rgba(0, 0, 0, 0.233);
-    justify-content: center;
-    align-items: center;
-    margin: 4px 0;
-    padding: 6px 0;
-    position: relative;
-    border-radius: 30px;
-    cursor: pointer;
-    transition: background-color .2s ease;
+  outline: 2px dashed rgba(255, 255, 255, 0.116);
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.233);
+  justify-content: center;
+  align-items: center;
+  margin: 4px 0;
+  padding: 6px 0;
+  position: relative;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
 }
 
-
 .trade-li-container > div:hover {
-    background-color: rgba(51, 51, 51, 0.233);
+  background-color: rgba(51, 51, 51, 0.233);
 }
 
 .trade-li-container > div span {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 15px;
 }
 
 .trade-li-container > div img {
-    height: 30px;
-    margin-right: 4px;
+  height: 30px;
+  margin-right: 4px;
 }
 
 .trade-li-container > div > div {
-    position: absolute;
-    right: 10px;
-    transform: scale(1.7);
-    opacity: .8;
-    transition: transform .3s ease;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  position: absolute;
+  right: 10px;
+  transform: scale(1.7);
+  opacity: 0.8;
+  transition: transform 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .trade-li-container > div > div:hover {
-    transform: scale(1.9);
+  transform: scale(1.9);
 }

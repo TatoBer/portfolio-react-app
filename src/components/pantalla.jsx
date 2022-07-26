@@ -1,9 +1,5 @@
-import React from 'react'
+import React from "react";
 
-export function Pantalla({input}) {
-  return (
-    <div className='input'>
-        {input}
-    </div>
-  )
+export function Pantalla({ input }) {
+  return <div className="input">{input}</div>;
 }

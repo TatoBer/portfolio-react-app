@@ -1,14 +1,12 @@
-import './normalize.css';
-import './App.css';
+import "./normalize.css";
+import "./App.css";
 import React from "react";
-import Home from './Home';
-
+import Home from "./Home";
 
 export function App() {
   return (
     <>
-      <Home/>
+      <Home />
     </>
   );
 }
-

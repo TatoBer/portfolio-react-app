@@ -1,0 +1,60 @@
+.portfolio-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.portfolio-container h3 {
+  font-weight: 100;
+  font-size: 23px;
+  margin: 15px 0;
+}
+
+.portfolio-container h3 b {
+  font-weight: bold;
+}
+
+.portfolio-item > span {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio-item span img {
+  position: absolute;
+  top: 0;
+  transition: all 0.5s ease;
+  height: 669px;
+}
+
+.portfolio-item:hover span img {
+  height: 300px;
+}
+
+.portfolio-item {
+  overflow: hidden;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #00000033;
+  cursor: pointer;
+  border-bottom: 3px solid #00000033;
+  margin: 30px;
+}
+
+.portfolio-div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 800px;
+  justify-content: center;
+  align-items: center;
+}

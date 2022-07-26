@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Albert+Sans:wght@200&display=swap");
 
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Albert Sans', sans-serif;
+  font-family: "Albert Sans", sans-serif;
   color: white;
 }
 
@@ -36,7 +36,6 @@ main {
   align-items: center;
 }
 
-
 #root hr {
   position: relative;
   outline: none;
@@ -44,7 +43,12 @@ main {
   height: 2px;
   width: 80vw;
   margin: 30px auto;
-  background-image: linear-gradient(to right, transparent , rgba(255, 255, 255, 0.048), transparent);
+  background-image: linear-gradient(
+    to right,
+    transparent,
+    rgba(255, 255, 255, 0.048),
+    transparent
+  );
 }
 
 *::-webkit-scrollbar {
@@ -74,12 +78,12 @@ main {
 }
 
 .abm-h2 {
-  opacity: .5;
-  margin: 40px 0 ;
-    font-family: "Raleway", sans-serif;
-    font-size: 33px;
-    font-weight: 500;
-    font-style: italic;
-    letter-spacing: 5px;
-    position: relative;
+  opacity: 0.5;
+  margin: 40px 0;
+  font-family: "Raleway", sans-serif;
+  font-size: 33px;
+  font-weight: 500;
+  font-style: italic;
+  letter-spacing: 5px;
+  position: relative;
 }

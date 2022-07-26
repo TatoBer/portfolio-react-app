@@ -1,11 +1,10 @@
-import React from 'react'
-import '../styles/botonCalc.css'
+import React from "react";
+import "../styles/botonCalc.css";
 
-export default function BotonCalc({children, tipo, click}) {
-
+export default function BotonCalc({ children, tipo, click }) {
   return (
-    <div className={`boton-calc ${tipo}`} onClick={()=> click(children)}>
+    <div className={`boton-calc ${tipo}`} onClick={() => click(children)}>
       {children}
     </div>
-  )
+  );
 }

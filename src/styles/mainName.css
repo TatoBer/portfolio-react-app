@@ -1,55 +1,52 @@
 @font-face {
-    src: url("https://www.axis-praxis.org/fonts/webfonts/MetaVariableDemo-Set.woff2")
-      format("woff2");
-    font-family: "Meta";
-    font-style: normal;
-    font-weight: normal;
-  }
-  
+  src: url("https://www.axis-praxis.org/fonts/webfonts/MetaVariableDemo-Set.woff2")
+    format("woff2");
+  font-family: "Meta";
+  font-style: normal;
+  font-weight: normal;
+}
+
+.main-name {
+  transition: all 0.3s ease;
+  -webkit-text-stroke: 4px #d6f4f4;
+  font-variation-settings: "wght" 900, "ital" 1;
+  font-size: 300px;
+  text-align: center;
+  line-height: 300px;
+  color: transparent;
+  font-family: "Meta", sans-serif;
+  text-shadow: 10px 10px 0px #c41558, 10px 10px 30px #c41558,
+    15px 15px 0px #8b566a, 20px 20px 0px #818181, 25px 25px 0px #636363,
+    45px 45px 10px #0000005b;
+  user-select: none;
+}
+
+.main-name-container {
+  width: 800px;
+  margin: 120px 0;
+  margin-top: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.main-name-container h3 {
+  font-variation-settings: "wght" 200, "ital" 1;
+  font-family: "Meta", sans-serif;
+  text-shadow: 2px 2px 0px #000000;
+  position: absolute;
+  font-size: 55px;
+  color: WHITE;
+}
+
+.main-name-container:hover .main-name {
+  font-variation-settings: "wght" 100, "ital" 1;
+  text-shadow: none;
+}
+
+@media (max-width: 100vh) {
   .main-name {
-    transition: all 0.3s ease;
-    -webkit-text-stroke: 4px #d6f4f4;
-    font-variation-settings: "wght" 900, "ital" 1;
-    font-size: 300px;
-    text-align: center;
-    line-height: 300px;
-    color: transparent;
-    font-family: "Meta", sans-serif;
-    text-shadow: 10px 10px 0px #c41558,
-      10px 10px 30px #c41558,
-      15px 15px 0px #8b566a,
-      20px 20px 0px #818181,
-      25px 25px 0px #636363,
-      45px 45px 10px #0000005b;
-    user-select: none;
+    transform: scale(0.52) translate(-20px, 0);
   }
-  
-  .main-name-container {
-    width: 800px;
-    margin: 120px 0;
-    margin-top: 75px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-  }
-
-  .main-name-container h3 {
-    font-variation-settings: "wght" 200, "ital" 1;
-    font-family: "Meta", sans-serif;
-    text-shadow: 2px 2px 0px #000000;
-    position: absolute;
-    font-size: 55px;
-    color: WHITE;
-  }
-
-  .main-name-container:hover .main-name{
-    font-variation-settings: "wght" 100, "ital" 1;
-    text-shadow: none;
-  }
-
-  @media (max-width: 100vh) {
-    .main-name {
-      transform: scale(.52) translate(-20px, 0);
-    }
-  }
+}

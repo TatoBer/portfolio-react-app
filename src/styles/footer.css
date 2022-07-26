@@ -1,23 +1,23 @@
 footer {
-    width: 100vw;
-    height: 120px;
-    background-color: #0d0c11e7;
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    margin-top: 75px;
-    flex-direction: column;
+  width: 100vw;
+  height: 120px;
+  background-color: #0d0c11e7;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin-top: 75px;
+  flex-direction: column;
 }
 
 footer small {
-    font-size: 15px;
-    opacity: .4;
-    margin: 4px 20px;
-    padding: 0;
-    text-align: center;
+  font-size: 15px;
+  opacity: 0.4;
+  margin: 4px 20px;
+  padding: 0;
+  text-align: center;
 }
 
 footer small a {
-    text-decoration-color: rgba(255, 255, 255, 0.322);
+  text-decoration-color: rgba(255, 255, 255, 0.322);
 }

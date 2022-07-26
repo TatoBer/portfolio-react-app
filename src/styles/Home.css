@@ -1,46 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@200&family=Raleway:ital,wght@1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Albert+Sans:wght@200&family=Raleway:ital,wght@1,300&display=swap");
 
 .direct-access {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.055);
-    padding: 50px;
-    border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.055);
+  padding: 50px;
+  border-radius: 15px;
 }
 
 .direct-access h1 {
-    margin: 0 0 50px 0;
-    font-family: "Raleway", sans-serif;
-    font-size: 40px;
-    font-weight: 500;
-    font-style: italic;
-    letter-spacing: 5px;
-    position: relative;
+  margin: 0 0 50px 0;
+  font-family: "Raleway", sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  font-style: italic;
+  letter-spacing: 5px;
+  position: relative;
 }
 
 .access-container {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .mudae-container {
-    margin-bottom: 35px;
+  margin-bottom: 35px;
 }
 
 .direct-access > .closed {
-    height: 0px;
-    width: 0px;
-    margin: 0px;
+  height: 0px;
+  width: 0px;
+  margin: 0px;
 }
 
 .direct-access.mudae {
-    padding-bottom: 15px;
+  padding-bottom: 15px;
 }
 
 @media (max-width: 70vh) {
-    .direct-access {
-      transform: scale(.9);
-    }
+  .direct-access {
+    transform: scale(0.9);
   }
+}
