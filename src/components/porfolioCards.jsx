@@ -26,7 +26,7 @@ export default function PorfolioCards() {
           <p>
             nav<b>creator</b> es mi primera aplicacion web con una utilidad
             real, la cual es crear navs de una manera facil, rapida y practica.
-            Esta fue creada en 15 horas, y utilizando las siguientes
+            Esta fue creada utilizando las siguientes
             tecnologias:{" "}
           </p>
           <ul>
@@ -52,6 +52,44 @@ export default function PorfolioCards() {
           <a
             target="_blank"
             href="https://glowing-paprenjak-aa0225.netlify.app/"
+          >
+            Ir al sitio
+            <BiLinkExternal />
+          </a>
+        </div>
+      </div>
+      <div className="portfolio-card-container buttonCreator closed">
+        <button onClick={closeCards}>
+          Cerrar <IoMdCloseCircle />{" "}
+        </button>
+        <div className="portfolio-card">
+          <p>
+            button<b>creator</b> es una app web, la cual fue creada con la finalidad de crear botones con estilos personalizados de una manera facil y rapida. Esta fue llevada a cabo utilizando las siguientes
+            tecnologias:{" "}
+          </p>
+          <ul>
+            <div>
+              <FaCss3 />
+            </div>
+            <div>
+              <FaReact />
+            </div>
+            <div>
+              <ImHtmlFive2 />
+            </div>
+            <div>
+              <SiJavascript />
+            </div>
+            <div>
+              <FaNpm />
+            </div>
+            <div>
+              <SiWebpack />
+            </div>
+          </ul>
+          <a
+            target="_blank"
+            href="https://elegant-khapse-7135d5.netlify.app//"
           >
             Ir al sitio
             <BiLinkExternal />
