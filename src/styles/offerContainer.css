@@ -7,6 +7,8 @@
   display: flex;
   flex-wrap: wrap;
   overflow: hidden;
+  box-sizing: border-box;
+  max-width: 83vw;
 }
 
 /* FORM */

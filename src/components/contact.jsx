@@ -21,7 +21,7 @@ export default function Contact() {
         <a
           className="contact-div"
           target="_blank"
-          href="https://api.whatsapp.com/send?phone=543412676961&text=Hello,%20I%20contact%20you%20to%20consult%20for%20a%20customized%20web%20page"
+          href="https://api.whatsapp.com/send?phone=543412676961&text=Hola%20Tato!"
         >
           <img src={imgWsp} alt="WhatsApp" />
           <p>WhatsApp</p>

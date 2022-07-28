@@ -8,6 +8,8 @@
   margin-top: 30px;
   overflow: hidden;
   transition: width 0.3s ease, margin 0.3s ease, height 0.3s ease;
+  box-sizing: border-box;
+  max-width: 83vw;
 }
 
 .calculadora {
@@ -39,8 +41,3 @@
   color: rgba(255, 255, 255, 0.699);
 }
 
-@media (max-width: 70vh) {
-  .calculadora {
-    transform: scale(0.87);
-  }
-}
