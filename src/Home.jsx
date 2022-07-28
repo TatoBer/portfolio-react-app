@@ -19,6 +19,7 @@ import Contact from "./components/contact";
 import Footer from "./components/footer";
 import Portfolio from "./components/portfolio";
 import PorfolioCards from "./components/porfolioCards";
+import { GrUser } from "react-icons/gr";
 
 export default function Home() {
   function toggleTrade() {
@@ -45,6 +46,16 @@ export default function Home() {
       <PorfolioCards />
       <main>
         <MainName>TATO</MainName>
+          <p className="parrafo-1">
+          Bienvenid@, soy <b>Franco Bernardini.</b>
+          </p>
+          
+          <p className="parrafo-2">
+            Tengo 21 años y soy de Rosario, Santa Fe, Argentina. Soy estudiante autodidacta en <b>programacion web font-end</b>
+            , con experiencia en diseño grafico y esta es mi pagina
+            personal.
+          </p>
+
         <div className="direct-access">
           <h1>SOBRE MI</h1>
           <div className="access-container">
@@ -78,6 +89,7 @@ export default function Home() {
         </div>
         <Footer />
       </main>
+      <span className="copy-done copy-mail">Direccion de correo copiada al portapapeles</span>
     </>
   );
 }

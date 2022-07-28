@@ -8,11 +8,12 @@
 
 .main-name {
   transition: all 0.3s ease;
-  -webkit-text-stroke: 4px #d6f4f4;
+  -webkit-text-stroke: 1px #d6f4f4;
   font-variation-settings: "wght" 900, "ital" 1;
-  font-size: 300px;
+  font-size: 150px;
   text-align: center;
-  line-height: 300px;
+  margin: 0;
+  line-height: normal;
   color: transparent;
   font-family: "Meta", sans-serif;
   text-shadow: 10px 10px 0px #c41558, 10px 10px 30px #c41558,
@@ -22,22 +23,13 @@
 }
 
 .main-name-container {
-  width: 800px;
-  margin: 120px 0;
-  margin-top: 75px;
+  width: 340px;
+  margin: 30px 0;
+  margin-top: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
-}
-
-.main-name-container h3 {
-  font-variation-settings: "wght" 200, "ital" 1;
-  font-family: "Meta", sans-serif;
-  text-shadow: 2px 2px 0px #000000;
-  position: absolute;
-  font-size: 55px;
-  color: WHITE;
 }
 
 .main-name-container:hover .main-name {
@@ -47,6 +39,29 @@
 
 @media (max-width: 100vh) {
   .main-name {
-    transform: scale(0.52) translate(-20px, 0);
+    transform: scale(0.8) translate(-20px, 0);
   }
+  .main-name-container {
+    margin: 50px 0;
+    margin-top: 20px;
+  }
+}
+
+.copy-done {
+  position: fixed;
+  bottom: 0;
+  z-index: 9999;
+  background-color: rgba(0, 0, 0, 0.863);
+  padding: 13px;
+  margin: 30px 0;
+  border-radius: 15px;
+  outline: 1px solid rgba(116, 116, 116, 0.253);
+  transition: all .3s ease;
+  transform: translate(0, 95px);
+  opacity: 0;
+}
+
+.copy-done.in {
+transform: none;
+opacity: .7;
 }
