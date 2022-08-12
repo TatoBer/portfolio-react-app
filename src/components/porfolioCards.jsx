@@ -51,6 +51,7 @@ export default function PorfolioCards() {
           </ul>
           <a
             target="_blank"
+            rel="noreferrer"
             href="https://glowing-paprenjak-aa0225.netlify.app/"
           >
             Ir al sitio
@@ -89,7 +90,7 @@ export default function PorfolioCards() {
               <SiWebpack />
             </div>
           </ul>
-          <a target="_blank" href="https://elegant-khapse-7135d5.netlify.app/">
+          <a target="_blank" rel="noreferrer" href="https://elegant-khapse-7135d5.netlify.app/">
             Ir al sitio
             <BiLinkExternal />
           </a>
@@ -131,7 +132,7 @@ export default function PorfolioCards() {
               <TbBrandNextjs />
             </div>
           </ul>
-          <a target="_blank" href="https://next-firebase-login-one.vercel.app/">
+          <a target="_blank" rel="noreferrer" href="https://next-firebase-login-one.vercel.app/">
             Ir al sitio
             <BiLinkExternal />
           </a>
