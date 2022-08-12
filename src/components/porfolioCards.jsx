@@ -95,14 +95,14 @@ export default function PorfolioCards() {
           </a>
         </div>
       </div>
-      <div className="portfolio-card-container LoginAPP closed">
+      <div className="portfolio-card-container NoteHub closed">
         <button onClick={closeCards}>
           Cerrar <IoMdCloseCircle />{" "}
         </button>
         <div className="portfolio-card">
           <p>
-            Login APP es una mini aplicacion con diseño "mobile only", creada para experimentar con varias
-            tecnologias y crear mi primer inicio de sesion mediante firebase.
+            NoteHub es una aplicacion con diseño "mobile only", creada para experimentar con varias
+            tecnologias y crear mi primer inicio de sesion y database mediante firebase.
             Esta fue creada utilizando las siguientes tecnologias:
           </p>
           <ul>

@@ -13,8 +13,8 @@ export default function Portfolio() {
     document.querySelector(".buttonCreator").classList.remove("closed");
   };
 
-  const openLoginAPPCard = () => {
-    document.querySelector(".LoginAPP").classList.remove("closed");
+  const openNoteHubCard = () => {
+    document.querySelector(".NoteHub").classList.remove("closed");
   };
 
   return (
@@ -41,12 +41,12 @@ export default function Portfolio() {
           </h3>
         </div>
 
-        <div className="portfolio-item" onClick={openLoginAPPCard}>
+        <div className="portfolio-item" onClick={openNoteHubCard}>
           <span>
-            <img src={loginAPPImg} alt="Login APP" />
+            <img src={loginAPPImg} alt="NoteHub" />
           </span>
           <h3>
-            Login <b>APP</b>
+            Note<b>Hub</b>
           </h3>
         </div>
       </div>
