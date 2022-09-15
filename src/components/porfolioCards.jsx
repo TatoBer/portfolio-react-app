@@ -4,7 +4,14 @@ import { FaCss3, FaReact, FaNpm } from "react-icons/fa";
 import { ImHtmlFive2 } from "react-icons/im";
 import { BiLinkExternal } from "react-icons/bi";
 import { IoMdCloseCircle } from "react-icons/io";
-import { SiJavascript, SiWebpack, SiFirebase } from "react-icons/si";
+import {
+  SiJavascript,
+  SiWebpack,
+  SiFirebase,
+  SiMongodb,
+  SiNodedotjs,
+  SiExpress,
+} from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 
 export default function PorfolioCards() {
@@ -90,7 +97,11 @@ export default function PorfolioCards() {
               <SiWebpack />
             </div>
           </ul>
-          <a target="_blank" rel="noreferrer" href="https://elegant-khapse-7135d5.netlify.app/">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://elegant-khapse-7135d5.netlify.app/"
+          >
             Ir al sitio
             <BiLinkExternal />
           </a>
@@ -102,9 +113,10 @@ export default function PorfolioCards() {
         </button>
         <div className="portfolio-card">
           <p>
-            NoteHub es una aplicacion con diseño "mobile only", creada para experimentar con varias
-            tecnologias y crear mi primer inicio de sesion y database mediante firebase.
-            Esta fue creada utilizando las siguientes tecnologias:
+            NoteHub es una aplicacion con diseño "mobile only", creada para
+            experimentar con varias tecnologias y crear mi primer inicio de
+            sesion y database mediante firebase. Esta fue creada utilizando las
+            siguientes tecnologias:
           </p>
           <ul>
             <div>
@@ -132,7 +144,104 @@ export default function PorfolioCards() {
               <TbBrandNextjs />
             </div>
           </ul>
-          <a target="_blank" rel="noreferrer" href="https://next-firebase-login-one.vercel.app/">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://next-firebase-login-one.vercel.app/"
+          >
+            Ir al sitio
+            <BiLinkExternal />
+          </a>
+        </div>
+      </div>
+      <div className="portfolio-card-container collectionA closed">
+        <button onClick={closeCards}>
+          Cerrar <IoMdCloseCircle />{" "}
+        </button>
+        <div className="portfolio-card">
+          <p>
+            "Collection A" es un juego web de colleccion de cartas de anime.
+            Este es actualmente mi mayor proyecto, cuenta con sistema de login,
+            inventario, pack opening, casino, estadisticas y logros. Fue creada
+            usando las siguientes tecnologias:
+          </p>
+          <ul>
+            <div>
+              <FaCss3 />
+            </div>
+            <div>
+              <FaReact />
+            </div>
+            <div>
+              <ImHtmlFive2 />
+            </div>
+            <div>
+              <SiJavascript />
+            </div>
+            <div>
+              <FaNpm />
+            </div>
+            <div>
+              <SiWebpack />
+            </div>
+            <div>
+              <SiFirebase />
+            </div>
+            <div>
+              <SiMongodb />
+            </div>
+            <div>
+              <SiNodedotjs />
+            </div>
+            <div>
+              <SiExpress />
+            </div>
+          </ul>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://collection-a.online/"
+          >
+            Ir al sitio
+            <BiLinkExternal />
+          </a>
+        </div>
+      </div>
+      <div className="portfolio-card-container infinityGradients closed">
+        <button onClick={closeCards}>
+          Cerrar <IoMdCloseCircle />{" "}
+        </button>
+        <div className="portfolio-card">
+          <p>
+            "Infinity Gradients" es una pagina web que genera automaticamente
+            backgrounds gradient para usar copiar rapido y facil. Fue creado
+            utilizando:
+          </p>
+          <ul>
+            <div>
+              <FaCss3 />
+            </div>
+            <div>
+              <FaReact />
+            </div>
+            <div>
+              <ImHtmlFive2 />
+            </div>
+            <div>
+              <SiJavascript />
+            </div>
+            <div>
+              <FaNpm />
+            </div>
+            <div>
+              <SiWebpack />
+            </div>
+          </ul>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://lucent-haupia-90f91b.netlify.app/"
+          >
             Ir al sitio
             <BiLinkExternal />
           </a>
