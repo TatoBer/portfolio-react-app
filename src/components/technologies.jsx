@@ -9,6 +9,7 @@ import htmlImg from "../images/HTML.png";
 import cssImg from "../images/css.png";
 import nodeImg from "../images/NodeJS.png";
 import mongoImg from "../images/mongo.png";
+import tsImg from "../images/ts.png";
 
 export default function Technologies() {
   return (
@@ -21,6 +22,7 @@ export default function Technologies() {
           <Techn img={reactImg} text="React" color="#00d8ffb8" />
           <Techn img={jsImg} text="JavaScript" color="#f7df1ead" />
           <Techn img={gitImg} text="git" color="#f05133b8" />
+          <Techn img={tsImg} text="TypeScript" color="#3178C6" />
         </div>
         <div className="div-skillset">
           <Techn img={mongoImg} text="MongoDB" color="#81C564b8" />

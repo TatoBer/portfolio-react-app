@@ -1,6 +1,7 @@
 import React from "react";
 import imgWsp from "../images/wspp.png";
 import imgMail from "../images/mail.png";
+import imgLinkedin from "../images/linkedin.png";
 import "../styles/contact.css";
 
 const copyMail = async () => {
@@ -29,6 +30,10 @@ export default function Contact() {
         <a className="contact-div" target="_blank" onClick={copyMail}>
           <img src={imgMail} alt="Mail" />
           <p>eMail</p>
+        </a>
+        <a className="contact-div" target="_blank" href="https://www.linkedin.com/in/tatobernardini/">
+          <img src={imgLinkedin} alt="Linkedin" />
+          <p>Linkedin</p>
         </a>
       </div>
     </div>

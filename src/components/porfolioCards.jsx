@@ -11,13 +11,13 @@ import {
   SiMongodb,
   SiNodedotjs,
   SiExpress,
+  SiTypescript,
 } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 
 export default function PorfolioCards() {
   const closeCards = () => {
     document.querySelectorAll(".portfolio-card-container").forEach((o, i) => {
-      console.log(document.querySelectorAll(".portfolio-card-container")[i]);
       document
         .querySelectorAll(".portfolio-card-container")
         [i].classList.add("closed");
@@ -201,6 +201,54 @@ export default function PorfolioCards() {
             target="_blank"
             rel="noreferrer"
             href="https://collection-a.online/"
+          >
+            Ir al sitio
+            <BiLinkExternal />
+          </a>
+        </div>
+      </div>
+      <div className="portfolio-card-container pokeGame closed">
+        <button onClick={closeCards}>
+          Cerrar <IoMdCloseCircle />{" "}
+        </button>
+        <div className="portfolio-card">
+          <p>
+            Pokemon Game es un juego de pokemon, creado con React y TypeScript,
+            utilizando la Pokemon API. En este proyecto logre mejorar la
+            legibilidad de mi codigo, aprendiendo a utilizar correctamente los
+            componentes, los custom-hooks, organizando de manera mas ordenada
+            los archivos, etc. (Actualmente se encuentra en desarrollo)
+          </p>
+          <ul>
+            <div>
+              <FaCss3 />
+            </div>
+            <div>
+              <FaReact />
+            </div>
+            <div>
+              <ImHtmlFive2 />
+            </div>
+            <div>
+              <SiJavascript />
+            </div>
+            <div>
+              <FaNpm />
+            </div>
+            <div>
+              <SiWebpack />
+            </div>
+            <div>
+              <SiNodedotjs />
+            </div>
+            <div>
+              <SiTypescript />
+            </div>
+          </ul>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://aesthetic-dodol-e83ac8.netlify.app/"
           >
             Ir al sitio
             <BiLinkExternal />

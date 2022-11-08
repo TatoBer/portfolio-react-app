@@ -5,79 +5,69 @@ import buttonCreatorImg from "../images/butcreator.jpg";
 import loginAPPImg from "../images/loginapp.jpg";
 import collectionAImg from "../images/collectionA.jpg";
 import infinityGradientsImg from "../images/infinityGradients.jpg";
+import pokeGameImg from "../images/pokeGame.jpg";
 
 export default function Portfolio() {
-  const openNavCreatorCard = () => {
-    document.querySelector(".navCreator").classList.remove("closed");
-  };
-
-  const openInfinityGradients = () => {
-    document.querySelector(".infinityGradients").classList.remove("closed");
-  };
-
-  const openButtonCreatorCard = () => {
-    document.querySelector(".buttonCreator").classList.remove("closed");
-  };
-
-  const openCollectionACard = () => {
-    document.querySelector(".collectionA").classList.remove("closed");
-  };
-
-
-  const openNoteHubCard = () => {
-    document.querySelector(".NoteHub").classList.remove("closed");
-  };
-
   return (
     <div className="portfolio-container">
       <div id="portfolio" className="topath"></div>
       <h2 className="abm-h2">PORTAFOLIO</h2>
       <div className="portfolio-div">
-        <div className="portfolio-item" onClick={openCollectionACard}>
-          <span>
-            <img src={collectionAImg} alt="collection a" />
-          </span>
-          <h3>
-            COLLECTION <b>A</b>
-          </h3>
-        </div>
-
-        <div className="portfolio-item" onClick={openInfinityGradients}>
-          <span>
-            <img src={infinityGradientsImg} alt="InfinityGradients" />
-          </span>
-          <h3>
-            Infinity <b>Gradients</b>
-          </h3>
-        </div>
-
-        <div className="portfolio-item" onClick={openNavCreatorCard}>
-          <span>
-            <img src={navCreatorImg} alt="navCreator" />
-          </span>
-          <h3>
-            nav<b>creator</b>
-          </h3>
-        </div>
-
-        <div className="portfolio-item" onClick={openButtonCreatorCard}>
-          <span>
-            <img src={buttonCreatorImg} alt="navCreator" />
-          </span>
-          <h3>
-            button<b>creator</b>
-          </h3>
-        </div>
-
-        <div className="portfolio-item" onClick={openNoteHubCard}>
-          <span>
-            <img src={loginAPPImg} alt="NoteHub" />
-          </span>
-          <h3>
-            Note<b>Hub</b>
-          </h3>
-        </div>
+      <PortfolioItem
+          clase=".pokeGame"
+          image={pokeGameImg}
+          alt="pokeGame"
+          nuevo={true}
+        >
+          Pokemon <b>Game</b>
+        </PortfolioItem>
+        <PortfolioItem
+          clase=".collectionA"
+          image={collectionAImg}
+          alt="collectionA"
+        >
+          COLLECTION <b>A</b>
+        </PortfolioItem>
+        <PortfolioItem
+          clase=".infinityGradients"
+          image={infinityGradientsImg}
+          alt="InfinityGradients"
+        >
+          Infinity <b>Gradients</b>
+        </PortfolioItem>
+        <PortfolioItem
+          clase=".navCreator"
+          image={navCreatorImg}
+          alt="NavCreator"
+        >
+          nav<b>creator</b>
+        </PortfolioItem>
+        <PortfolioItem
+          clase=".buttonCreator"
+          image={buttonCreatorImg}
+          alt="ButtonCreator"
+        >
+          button<b>creator</b>
+        </PortfolioItem>
+        <PortfolioItem clase=".NoteHub" image={loginAPPImg} alt="NoteHub">
+          Note<b>Hub</b>
+        </PortfolioItem>
       </div>
     </div>
   );
 }
+
+const PortfolioItem = ({ image, children, alt, clase, nuevo }) => {
+  return (
+    <div
+      className="portfolio-item"
+      onClick={() => document.querySelector(clase).classList.remove("closed")}
+    >
+      <span>
+        <img src={image} alt={alt} />
+      </span>
+      <h3>{children}</h3>
+      {nuevo &&<div className="new">NEW!</div>}
+    </div>
+  );
+};
