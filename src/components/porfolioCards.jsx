@@ -249,8 +249,17 @@ export default function PorfolioCards() {
             target="_blank"
             rel="noreferrer"
             href="https://aesthetic-dodol-e83ac8.netlify.app/"
+            className="go-to-site"
           >
             Ir al sitio
+            <BiLinkExternal />
+          </a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://github.com/TatoBer/pokegame-ts"
+          >
+            Repositorio
             <BiLinkExternal />
           </a>
         </div>
