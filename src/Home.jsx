@@ -51,7 +51,7 @@ export default function Home() {
           </p>
           
           <p className="parrafo-2">
-            Tengo 21 años y soy de Rosario, Santa Fe, Argentina. Soy estudiante autodidacta en <b>programacion web font-end</b>
+            Tengo 21 años y soy de Rosario, Santa Fe, Argentina. Soy estudiante autodidacta en <b>programacion web fullstack</b>
             , con experiencia en diseño grafico y esta es mi pagina
             personal.
           </p>
